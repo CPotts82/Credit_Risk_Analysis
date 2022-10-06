@@ -10,8 +10,8 @@ data: https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-diffe
 
 ## Results
 Accuracy, Precision, Recall, F1, Confusion Matrix
-### OverSampling Models
-#### Naive Random Oversampling:
+### OverSampling Models:
+### Naive Random Oversampling:
 - Accuracy Score - 62.9%
 - Precision - 99.0%
 - Recall/Sensitivity - 68.0% 
@@ -20,7 +20,7 @@ Accuracy, Precision, Recall, F1, Confusion Matrix
 
 ![NR_Oversampling](https://user-images.githubusercontent.com/106348899/194399649-8fe8d10f-49af-43a3-aadb-18d36c39a7ba.png)
 
-#### SMOTE: 
+### SMOTE: 
 - Accuracy Score - 62.2%
 - Precision - 99.0%
 - Recall/Sensitivity - 66.0%
@@ -29,8 +29,8 @@ Accuracy, Precision, Recall, F1, Confusion Matrix
 
 ![SMOTE Oversampling](https://user-images.githubusercontent.com/106348899/194399900-2506bbe7-3eee-4152-ac73-e9a87b0afe01.png)
 
-### UnderSampling Model
-#### Cluster Centroids Resampler:
+### UnderSampling Model:
+### Cluster Centroids Resampler:
 - Accuracy Score - 50.6%
 - Precision - 99.0%
 - Recall/Sensitivity - 42.0%
@@ -39,8 +39,8 @@ Accuracy, Precision, Recall, F1, Confusion Matrix
 
 ![CC_Undersampling](https://user-images.githubusercontent.com/106348899/194400093-8ccee62e-1407-4ec9-8949-5d863f7eacf8.png)
 
-### Combination Sampling Model
-#### SMOTEENN:
+### Combination Sampling Model:
+### SMOTEENN:
 - Accuracy Score - 62.7%
 - Precision - 99.0%
 - Recall/Sensitivity - 59.0%
@@ -50,7 +50,7 @@ Accuracy, Precision, Recall, F1, Confusion Matrix
 ![SMOTEENN_Combo](https://user-images.githubusercontent.com/106348899/194400264-334d4ab8-14ec-4594-8762-c180e9607f07.png)
 
 ### Ensemble Learner Models
-#### Balanced Random Forest Classifier:
+### Balanced Random Forest Classifier:
 - Accuracy Score - 78.8%
 - Precision - 99.0%
 - Recall/Sensitivity - 91.0%
@@ -59,7 +59,7 @@ Accuracy, Precision, Recall, F1, Confusion Matrix
 
 ![BRF](https://user-images.githubusercontent.com/106348899/194400408-d164a721-a78f-4259-8af6-7afc402d7c9a.png)
 
-#### Easy Ensemble AdaBoost Classifier:
+### Easy Ensemble AdaBoost Classifier:
 - Accuracy Score - 92.5%
 - Precision - 99.0%
 - Recall/Sensitivity - 94.0%
