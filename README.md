@@ -9,7 +9,9 @@ Jupyter Notebook, SciKit-learn libraries, imbalanced-learn libraries, Python
 data: https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-
 
 ## Results
-Accuracy, Precision, Recall, F1, Confusion Matrix
+
+The results of this analysis focus on the accuracy, precision, recall, and F1 scores (as defined above) for each model. There were 4 different resampling techniques applied: oversampling, undersampling, combination sampling and ensemble learning. The results for each model are shown below;
+
 ### OverSampling Models:
 ### Naive Random Oversampling:
 - Accuracy Score - 62.9%
