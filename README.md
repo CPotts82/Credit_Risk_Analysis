@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 ## Overview
-In this analysis six different supervised machine learning models were explored and analyzed in order to evaluate their ability to detect credit risks.  Credit risk is a highly imbalanced set of data due to the fact that low risk credit far outweighs high risk credit.  There are more opportunities for good loans than for bad ones but the high credit risks can be detrimental if they fall through.  The purpose of the machine learning models is to help predict which credit risks are high out of the mostly low risk dataset. Due to the fact that this is such an imbalanced dataset, various resampling techniques are being explored. 
+In this analysis six different supervised machine learning models were explored and analyzed in order to evaluate their ability to detect credit risks.  Credit risk data is a highly imbalanced set of data due to the fact that low risk credit far outweighs high risk credit.  There are more opportunities for good loans than for bad ones but the high credit risks can be detrimental if they fall through.  The purpose of the machine learning models is to help predict which credit risks are high out of the mostly low risk dataset. Due to the fact that this is such an imbalanced dataset, various resampling techniques are being explored. 
 ### Purpose/Background
 The dataset for this analysis comes from LendingClub and was analyzed using multiple types of resampling techniques. Machine learning models were trained with the LendingClub dataset and then evaluated on their performance. Key metrics that were focused on were: accuracy score, precision, sensitivity, and F1 score. 
 
@@ -17,7 +17,7 @@ data: https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-diffe
 
 ## Results
 
-The results of this analysis focus on the accuracy, precision, recall, and F1 scores (as defined above) for each model. There were 4 different resampling techniques applied: oversampling, undersampling, combination sampling and ensemble learning. The results for each model are shown below along with a brief description of each type of resampling technique. 
+The results of this analysis focus on the accuracy, precision, recall, and F1 scores (as defined above) for each model. There were 4 different resampling techniques applied: oversampling, undersampling, combination sampling and ensemble learning. The results for each model are shown below. 
 
 ### OverSampling Models:
 ### Naive Random Oversampling:
