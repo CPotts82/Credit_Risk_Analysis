@@ -2,7 +2,7 @@
 ## Overview
 In this analysis six different supervised machine learning models were explored and analyzed in order to evaluate their ability to detect credit risks.  Credit risk data is a highly imbalanced set of data due to the fact that low risk credit far outweighs high risk credit.  There are more opportunities for good loans than for bad ones but the high credit risks can be detrimental if they fall through.  The purpose of the machine learning models is to help predict which credit risks are high out of the mostly low risk dataset. Due to the fact that this is such an imbalanced dataset, various resampling techniques are being explored. 
 ### Purpose/Background
-The dataset for this analysis comes from LendingClub and was analyzed using multiple types of resampling techniques. Machine learning models were trained with the LendingClub dataset and then evaluated on their performance. Key metrics that were focused on were: accuracy score, precision, sensitivity, and F1 score. 
+The dataset for this analysis comes from LendingClub and was analyzed using multiple types of resampling techniques. Machine learning models were trained with the LendingClub dataset and then evaluated on their performance. Key metrics that were focused on were: accuracy score, precision, sensitivity, and F1 score. A confusion matrix was also generated for each model. This matrix identifies the number of ACTUAL high and low credit risks vs the PREDICTED number of high and low credit risks. 
 
 Metric Definitions:
 - Accuracy - the number of predictions the model predicted correct, both high and low credit risks.
