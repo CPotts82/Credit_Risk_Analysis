@@ -11,7 +11,7 @@ Metric Definitions:
 - F1 Score - combines precision and mean into one metric. 
 
 ## Resources:
-Jupyter Notebook, SciKit-learn libraries, imbalanced-learn libraries, Python
+Jupyter Notebook, SciKit-learn libraries, imbalanced-learn libraries, Pandas, Python
 
 data: https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-
 
